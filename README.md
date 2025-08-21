@@ -1,7 +1,7 @@
 🛒 E-Commerce API (Spring Boot)
 
 A fully functional E-Commerce REST API, built with Spring Boot, featuring JWT authentication, role-based access (USER / ADMIN), a shopping cart, order management, and full CRUD operations for products.
-Perfect as a backend for a modern frontend app built with React, Angular, or Vue.
+
 
 🚀 Features
 
