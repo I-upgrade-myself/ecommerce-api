@@ -1,0 +1,27 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://ep-frosty-breeze-ade8tnvq-pooler.c-2.us-east-1.aws.neon.tech/neondb?user=neondb_owner&password=npg_huE2orRAB7tv&sslmode=require&channelBinding=require
+    username: neondb_owner
+    password: npg_huE2orRAB7tv
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+logging:
+  level:
+    root: INFO
+    org.springframework.security: DEBUG
+    com.example.ecommerce: DEBUG
+    org.springframework.web: DEBUG
+
+jwt:
+  secret: b82e5b320d3b75f7355d132e7be47d4ff0320a1d23409f57f5f4e107a251c50f
+  expirationMs: 3600000
+

@@ -1,0 +1,13 @@
+# application-test.yml
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+jwt:
+  secret: b82e5b320d3b75f7355d132e7be47d4ff0320a1d23409f57f5f4e107a251c50f
+  expirationMs: 3600000
